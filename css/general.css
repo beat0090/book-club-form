@@ -1,0 +1,103 @@
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	background-color: #fab243;
+}
+
+body {
+	margin: 0;
+}
+
+form {
+	margin: 2%;
+}
+
+h1 {
+	color: #a31a22;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+
+label {
+	display: block;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	color: #a31a22;
+	font-size: 1.25em;
+	
+	cursor: pointer;
+}
+
+input,
+textarea {
+	font-size: 1rem;
+}
+
+fieldset {
+	border: none;
+	padding: 0;
+}
+
+.input-text {
+	padding: 0.5em 0.5em;
+	width: 60%;
+	
+	background-image: linear-gradient(to bottom, #fff, #efefef);
+	border: 1px solid #ccc;
+	
+	font-size: 1rem;
+}
+
+input + label { 
+	display: inline;
+}
+
+button {
+	-moz-box-shadow:inset 0px 1px 0px 0px #fceaca;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #fceaca;
+	box-shadow:inset 0px 1px 0px 0px #fceaca;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #c63224), color-stop(1, #c63224) );
+	background:-moz-linear-gradient( center top, #ffce79 5%, #eeaf41 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffce79', endColorstr='#eeaf41');
+	background-color:#ffce79;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #c63224;
+	display:inline-block;
+	color:#ffffff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	margin-bottom: auto;
+	padding: 6px 22px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #ce8e28;
+	
+	cursor: pointer;
+
+}
+
+button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #eeaf41), color-stop(1, #ffce79) );
+	background:-moz-linear-gradient( center top, #eeaf41 5%, #ffce79 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#eeaf41', endColorstr='#ffce79');
+	background-color:#eeaf41;
+
+}
+
+button:active {
+	position: relative;
+	top:1px;
+}
+
+.error {
+	display: block;
+	color: #f33;
+|}
+
+.input-error {
+	border: 3px solid #f33;
+}

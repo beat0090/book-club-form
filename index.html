@@ -1,0 +1,127 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Science Fiction Book Club</title>
+<link href="css/general.css" rel="stylesheet">
+</head>
+
+<body>
+
+<img src="img/banner.jpg" alt="">
+
+<form>
+	<h1>Please fill out your Book Club Application Form:</h1>
+	<div>
+		<label for="name">
+		Name
+		<strong class="error">Name Required</strong>
+		</label>
+		<input type="text" id="name" class="input-text input-error" required>
+	</div>
+
+	<div>
+		<label for="email">
+		E-mail Address
+		<strong class="error">Email Address Required</strong>
+		</label>
+		<input type="email" id="email" value="you@example.com" class="input-text input-error" required>
+	</div>
+	
+	<div>
+		<label for="phone">Phone</label> 
+		<input type="tel" id="phone" maxlength="17" class="input-text" optional>
+	</div>
+	
+	<div>
+		<label for="address">Address</label> 
+		<input type="address" id="address" class="input-text" required>
+	</div>
+	
+	<div>
+		<label for="city">City</label> 
+		<input type="city" id="city" class="input-text" required>
+	</div>
+	
+	<div> <!--dropdown menu -->
+		<label for="province">Province</label>
+			<select id="province" required>
+				<option></option>
+				<option>Newfoundland</option>
+				<option>Prince Edward Island</option>
+				<option>Nova Scotia</option>
+				<option>New Brunswick</option>
+				<option>Quebec</option> 
+				<option>Ontario</option> 
+				<option>Manitoba</option> 
+				<option>Saskatchewon</option> 
+				<option>Alberta</option> 
+				<option>british Columbia</option> 
+			</select>
+	</div>
+	
+	<div>
+		<label for="postal">Postal Code</label> 
+		<input type="postal" id="postal" maxlength="7" class="input-text"required>
+	</div>
+	
+	<div>
+		<label for="time">What time of day would be best to meet?</label> 
+		<input type="time" id="time" class="input-text" required>
+	</div>
+	
+	<div>
+		<label for="number">How many books have you read this year?</label> 
+		<input type="number" id="number" class="input-text" optional>
+	</div>
+
+	<div>
+		<label for="bio">Describe your favourite book & author</label>
+		<textarea id="bio" class="input-text"></textarea>
+	</div>
+	
+	<fieldset>
+		<legend>How much do you love this genre?</legend>
+
+		<input  type="radio" id="somewhatdislike" name"satisfaction">
+		<label for="somewhat dislike">Somewhat Dislike</label>
+		
+		<input type="radio" id="dislike" name"satisfaction">
+		<label for="dislike">Dislike</label>
+		
+		<input type="radio" id="neutral" name"satisfaction">
+		<label for="neutral">Neutral</label>
+		
+		<input type="radio" id="like" name"satisfaction">
+		<label for="like">Like</label>
+		
+		<input type="radio" id="somewhatlike" name"satisfaction">
+		<label for="somewhat like">Somewhat Like</label>
+	</fieldset>
+	
+	
+	<button type="submit">Submit</button>
+
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
