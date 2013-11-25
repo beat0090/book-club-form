@@ -103,6 +103,11 @@ button:active {
 	top:1px;
 }
 
+.button {
+	padding-bottom: 2%;
+	padding-top: 1%;
+}
+
 .error {
 	display: block;
 	color: #f33;
